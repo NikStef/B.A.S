@@ -1,0 +1,25 @@
+public class e-Εισητήριο{
+	private int code;
+	private enum type;
+	private double price;
+	private int seat;
+	private int discount;
+	private boolean return1;
+	private int busID;
+	
+
+	public e-leof(int id, int  numbOFseats, int availableSeats){
+		this.busID = id;
+		this.seat = numbOFseats -  availableSeats;
+	}
+	
+	public e-Εισητήριο(int code, enum type, double price,int seat,int discount,boolean return1,int busID){
+		this.code = code;
+		this.type = type;
+		this.price = price;
+		this.seat = seat;
+		this.discount=discount;
+		this.return1=return1;
+		this.busID=busID;
+	}
+}

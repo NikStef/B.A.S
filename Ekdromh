@@ -1,0 +1,23 @@
+public class ekdromh{
+	private int id;
+	private enum type;
+	private int  passangerCapacity;
+	private int participants;
+	private string StartDate;
+	private string backDate;
+	private string title;
+	private string description;
+	private string coordinator;
+	
+	public ekdromh(int id,enum type,int  passangerCapacity,int participants,string StartDate,string backDate,string title,
+	 ,string description,string coordinator){
+	this.type=type;
+	this.passangerCapacity=passangerCapacity;
+	this.participants=	participants;
+	this.StartDate=StartDate;
+	this.backDate=backDate;
+	this.title=title;
+	this.description=description;
+	this.coordinator=coordinator;
+	}	
+}
